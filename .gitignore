@@ -1,0 +1,29 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+**/bin/
+**/obj/
+**/dist/
+**/dist-ssr/
+**/.vite/
+
+# Local databases
+backend/tasks.db
+backend/tasks.db-shm
+backend/tasks.db-wal
+
+# Local configuration and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local environments and editor files
+.venv/
+.vs/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.user
+*.suo
+*.log
